@@ -133,7 +133,27 @@ nav ul li a:hover{
     margin: auto;
    
 }
-.me
+.mediv
 {
  padding: 40PX;
+}
+.photoabout 
+{
+    width: 280PX;
+    border-radius: 20px;
+    border: dashed black 1px;
+}
+.cv
+{
+    text-decoration: none;
+    transition: 0.7s ;
+}
+.cv:hover
+{
+   
+    color: rgb(38, 38, 75);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    
 }
