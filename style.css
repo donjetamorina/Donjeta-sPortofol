@@ -18,16 +18,27 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
 #header
 {
     display: flex;
+    height: auto;
     width: 100%;
-    height: 100vh;
  
-    background-size: cover;
-    background-position: center ;
-
 }
 .container{
     padding: 10px 10%;
 
+}
+.first-div
+{
+    width: 10%;
+    
+} 
+ .second-div
+{
+    width: 70%;
+    margin-top: 100px;
+}
+.third-div
+{
+    width: 10%;
 }
 nav{
     display: block;
@@ -35,6 +46,9 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: -130px;
+    overflow: hidden;
+    position: fixed;
+
 }
 .logo
 {
@@ -86,18 +100,18 @@ nav ul li a:hover{
     position: absolute;
     }
 
-    .showhome
-    {
-        display: flex;
-        margin: 80px 30px;
-    }
-    .me
+.showhome
+{
+    display: flex;
+    margin: 80px 30px;
+}
+.me
 {
     margin-top: 103px;
    
-    
 }
-.glitch {
+.glitch
+{
     font-size: 29px;
     font-weight: bold;
     text-transform: uppercase;
@@ -105,7 +119,7 @@ nav ul li a:hover{
     text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
       0.035em 0.05em 0 #48334b;
   
-  }
+}
 .name
 {
     font-size: 35px;
@@ -142,9 +156,9 @@ nav ul li a:hover{
 }
 .aboutme
 {
-    width:60%;
+
     display: flex;
-    margin: auto;
+    margin: 150px 20px;
    
 }
 .mediv
@@ -177,10 +191,71 @@ nav ul li a:hover{
     transform: translatex(140px);
     animation: moveup 0.9s linear forwards;
 }
-@keyframes moveup{
-    100%{
+@keyframes moveup
+{
+    100%
+    {
         opacity: 1;
         transform: translateY(10px);
     }
 
+}
+
+ .box-container-services
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+ .box-container-services .box-services
+{
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgb(0,0,0,2);
+ 
+}
+
+
+.box-container-services .box-services .image-services
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 5px;
+ 
+}
+.box-container-services .box-services .image-services img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-container-services .box-services:hover .image-services img
+{
+    transform: scale(1.1);
+}
+#load-more-services
+{
+    margin: 20px 380px; 
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #334;
+    color: #336;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+#load-more-services:hover
+{
+    background-color: #336;
+    border-color: #334;
+    color: #fff;
+}
+#load-more-div{ 
+    width: 100%;
+    display: none;
 }
