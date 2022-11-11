@@ -12,7 +12,8 @@ body
     /* background: rgb(232,214,141);
 background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rgba(145,221,135,0.41780462184873945) 35%, rgba(213,248,255,1) 100%); */
     color: black;
-    background-image: url(photos/images.png);
+    /* background-image: url(photos/images.png); */
+    background-color: azure;
 }
 #header
 {
@@ -126,6 +127,19 @@ nav ul li a:hover{
     transform: scale(1.4);
     color: turquoise;
 }
+.animatedhome
+{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.9s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
 .aboutme
 {
     width:60%;
@@ -156,4 +170,17 @@ nav ul li a:hover{
     background-color: white;
     border-radius: 20px;
     
+}
+.animatedabout
+{
+    opacity: 0;
+    transform: translatex(140px);
+    animation: moveup 0.9s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(10px);
+    }
+
 }
