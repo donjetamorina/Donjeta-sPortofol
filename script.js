@@ -19,7 +19,7 @@ function ShowMore()
 //     Email.send({
 //         Host : "smtp.gmail.com",
 //         Username : "donjetam33@gmail.com",
-//         Password : "10.05.2002",
+//         Password : "",
 //         To : 'donjetam33@gmail.com',
 //         From : document.getElementById("email").value,
 //         Subject : "New Contact Form",
