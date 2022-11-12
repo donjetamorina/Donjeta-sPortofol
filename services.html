@@ -14,19 +14,23 @@
   
 <div id="header">
     <!-- first div -->
-   <div class="container first-div">
-    <nav>
-      <img src="photos/LOGO.png" class="logo">
-      <ul>
-          <li><a href="index.html" >Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" >Services</a></li>
-          <li><a href="portfolio.html" >Portfolio</a></li>
-          <li><a href="contact.html" >Contact</a></li>
-      </ul>
-  </nav>
-
-   </div>
+    <div class="container first-div mobile-container">
+      <nav class="topnav" id="mainnav">
+          <img class="logo"src="photos/LOGO.png" >
+          <a href="#mainnav" id="menuicon" class="icon" >
+              <ion-icon name="menu-outline"></ion-icon>
+          </a>
+          <ul id="myLinks">
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html" class="active" >Services</a></li>
+              <li><a href="portfolio.html" >Portfolio</a></li>
+              <li><a href="contact.html" >Contact</a></li>
+          </ul>
+         
+      </nav>
+      
+     </div>
    <!-- second div -->
    
     <div class="box-container-services second-div">
@@ -137,6 +141,8 @@
   </nav> 
    </div>
 </div>
-
+<script src="script.js">
+      
+</script>
 </body>
 </html>

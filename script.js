@@ -28,3 +28,15 @@ function ShowMore()
 //       message => alert(message)
 //     );
 // }
+
+
+
+  function myFunction() {
+           
+    if (document.getElementById('myLinks').style.display =='block') {
+      document.getElementById('myLinks').style.display = "none";
+    } else {
+     document.getElementById('myLinks').style.display = "block";
+    }
+  }
+  document.getElementById('menuicon').addEventListener('click', myFunction);
