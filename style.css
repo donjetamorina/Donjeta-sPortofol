@@ -498,12 +498,11 @@ textarea {
     }
 
     #myLinks {
-       /* position: absolute; */
+       position: absolute;
         width: 100%;
         height: auto;
         transform: 0.5s;
-    
-        /* display: none; */
+        display: none;
 
     }
 
