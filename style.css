@@ -35,6 +35,7 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
 {
     width: 70%;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 .third-div
 {
@@ -213,8 +214,22 @@ nav ul li a:hover{
    padding: 20px;
    border-radius: 5px;
    box-shadow: 0 5px 10px rgb(0,0,0,2);
+   animation: myAnim 1s ease 0s 1 normal forwards;
+   
  
 }
+@keyframes myAnim {
+	0% {
+		transform: scaleY(0.4);
+		transform-origin: 100% 0%;
+	}
+
+	100% {
+		transform: scaleY(1);
+		transform-origin: 100% 0%;
+	}
+}
+
 
 
 .box-container-services .box-services .image-services
@@ -258,4 +273,98 @@ nav ul li a:hover{
 #load-more-div{ 
     width: 100%;
     display: none;
+}
+ .year
+{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+}
+.portfolio
+{
+    margin: 20px 0 0 0;
+    display: block;
+    
+}
+.button-portfolio, .btn
+{
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #000000;
+    margin: 0px 40px;
+    color: white;
+    border-radius: 15px 0 15px 15px;
+    transition: 0.7s;
+}
+.button-portfolio:hover, .btn:hover{
+    background-color: rgb(112, 106, 106);
+    border-radius: 15px 15px ;
+    color: #000000;
+}
+
+
+
+
+
+.right{
+	padding: 25px 40px;
+    width: 60%;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #000000;
+    margin-left: 40px;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+    margin-left: 40px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
 }
