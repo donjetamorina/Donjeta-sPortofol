@@ -42,10 +42,17 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
 .third-div {
     width: 10%;
 }
-.third-div .theicons
+/* .third-div .theicons
 {
-    margin-top: 140px;
+    
+    font-size: 40px;
+    display: flex;
+    margin-left: 19px;
 }
+.third-div .theicons a{
+    margin: 20px 17px;
+} */
+
 
 nav {
     display: block;
@@ -152,19 +159,7 @@ nav ul li a:hover {
 
 }
 
-.ikona {
 
-    color: black;
-    margin-left: 110px;
-    transition: 0.7s;
-
-
-}
-
-.ikona:hover {
-    transform: scale(1.4);
-    color: turquoise;
-}
 
 .animatedhome {
     opacity: 0;
@@ -423,14 +418,30 @@ textarea {
     }
 }
 
-/* @media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 200px;
-	}
-} */
+.third-div .theicons
+{
+    
+    font-size: 30px;
+    display: inline;
+    position: fixed;
+    margin-top: 200px; 
+}
+.third-div .theicons a{
+    margin: 20px 17px;
+}
+.third-div .theicons .ikona
+{ 
+    color: black;
+    transition: 0.7s;
+}
+.third-div .theicons .ikona:hover{
+    color: blue;
+    
+}
+
+
+
+
 @media only screen and (min-width: 315px) and (max-width: 667px) {
     * {
         padding: 0;
@@ -688,16 +699,28 @@ textarea {
         display: block;
     }
 
-    .third-div  .theicons{
-        width: 100%;
-        display: block;
-    }
-    .third-div .theicons ul li a
+    /* .theicons
     {
-        margin-top:-400;
-        display: block;
-
+        display: none;
+    } */
+    .third-div
+    {
+        display:flex;
     }
+
+    .third-div .theicons
+{
+    
+    font-size: 40px;
+    display: flex;
+    margin-left: 19px;
+    position: absolute;
+}
+.third-div .theicons a{
+    margin: 20px 17px;
+}
+
+   
     
 
 }
