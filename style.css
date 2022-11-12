@@ -35,23 +35,14 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
     width: 70%;
     margin-top: 100px;
     margin-bottom: 30px;
-   
-    
+
+
 }
 
 .third-div {
     width: 10%;
 }
-/* .third-div .theicons
-{
-    
-    font-size: 40px;
-    display: flex;
-    margin-left: 19px;
-}
-.third-div .theicons a{
-    margin: 20px 17px;
-} */
+
 
 
 nav {
@@ -89,8 +80,8 @@ nav ul li a:hover {
     font-size: 20px;
     color: rgb(18, 39, 231);
 }
-.active
-{
+
+.active {
     color: rgb(16, 28, 138);
     /* background-color: rgb(110, 109, 109); */
     /* border-radius: 10px;  */
@@ -100,19 +91,6 @@ nav ul li a:hover {
 .icon {
     display: none;
 }
-
-/* nav ul li a::after
-{
-    content: '';
-    width: 100%;
-    height: 3px;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    
-
-} */
 
 .photohome {
 
@@ -328,11 +306,6 @@ nav ul li a:hover {
     display: none;
 }
 
-
-
-
-
-
 h2 {
     position: relative;
     padding: 0 0 10px;
@@ -417,25 +390,26 @@ textarea {
     }
 }
 
-.third-div .theicons
-{
-    
+.third-div .theicons {
+
     font-size: 30px;
     display: inline;
     position: fixed;
-    margin-top: 200px; 
+    margin-top: 200px;
 }
-.third-div .theicons a{
+
+.third-div .theicons a {
     margin: 20px 17px;
 }
-.third-div .theicons .ikona
-{ 
+
+.third-div .theicons .ikona {
     color: black;
     transition: 0.7s;
 }
-.third-div .theicons .ikona:hover{
+
+.third-div .theicons .ikona:hover {
     color: blue;
-    
+
 }
 
 
@@ -462,6 +436,7 @@ textarea {
         height: 400px;
 
     }
+
     .first-div nav {
         display: flex;
     }
@@ -473,10 +448,10 @@ textarea {
         width: 300px;
     }
 
- 
+
 
     .first-div nav ul li .icon {
-       
+
         float: right;
         color: black;
         text-decoration: none;
@@ -485,7 +460,7 @@ textarea {
     }
 
 
-    .first-div .topnav #menuicon  {
+    .first-div .topnav #menuicon {
 
         color: black;
         padding: 14px 16px;
@@ -498,7 +473,7 @@ textarea {
     }
 
     #myLinks {
-       position: absolute;
+        position: absolute;
         width: 100%;
         height: auto;
         transform: 0.5s;
@@ -507,24 +482,24 @@ textarea {
     }
 
     nav ul li a {
-        
+
         font-size: 30px;
-        text-align: center; 
+        text-align: center;
         display: block;
-        position: relative; 
+        position: relative;
 
     }
-    
+
 
     .second-div {
         display: block;
         width: 100%;
-      
+
 
     }
-    .second-div .right
-    {
-        width: 300px; 
+
+    .second-div .right {
+        width: 300px;
         padding: 0;
     }
 
@@ -550,58 +525,6 @@ textarea {
         margin-left: auto;
     }
 
-   
-    
-/* 
-    .third-div nav ul a {
-        display: block;
-        position: relative;
-        width: 100%;
-    }
-    .third-div nav ul a .ikona
-    {
-   display: block;
-    } */
-    
-
-
-    /* .mobile-container { 
-        max-width: 480px;
-        margin: auto;
-        background-color: #555;
-        height: 500px;
-        color: white;
-        border-radius: 10px;
-      } */
-
-    /* .topnav {
-        overflow: hidden;
-    
-      }
-      
-      .topnav #myLinks {
-        /* display: none; */
-    /* position: absolute;
-        margin: 200px 0 0  140px;
-      
-      } */
-
-
-
-    /* .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      } */
-
-    /* .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-       */
-
     .photoabout {
         margin-left: 60px;
     }
@@ -614,7 +537,7 @@ textarea {
     .box-container-services {
         display: block;
         width: 100%;
-          
+
     }
 
     .box-container-services .box-services {
@@ -671,7 +594,7 @@ textarea {
         background-color: #bdb2be;
         height: 190px;
         padding: 10px;
-       margin-left: 20px;
+        margin-left: 20px;
 
     }
 
@@ -685,36 +608,28 @@ textarea {
         margin: 10px 0;
 
     }
-    .div-portfolio h3  .br {
+
+    .div-portfolio h3 .br {
         display: block;
     }
 
-    /* .theicons
-    {
-        display: none;
-    } */
-    .third-div
-    {
-        display:flex;
+    .third-div {
+        display: flex;
     }
 
-    .third-div .theicons
-{
-    
-    font-size: 40px;
-    display: flex;
-    margin-left: 19px;
-    position: absolute;
+    .third-div .theicons {
+
+        font-size: 40px;
+        display: flex;
+        margin-left: 19px;
+        position: absolute;
+    }
+
+    .third-div .theicons a {
+        margin: 20px 17px;
+    }
+
+
+
+
 }
-.third-div .theicons a{
-    margin: 20px 17px;
-}
-
-   
-    
-
-}
-
-
-
-
