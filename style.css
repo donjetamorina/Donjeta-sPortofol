@@ -18,6 +18,7 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
     display: flex;
     height: auto;
     width: 100%;
+    
 
 }
 
@@ -41,8 +42,11 @@ background: linear-gradient(279deg, rgba(232,214,141,0.16010154061624648) 0%, rg
 
 .third-div {
     width: 10%;
+   
 }
-
+select{
+    
+}
 
 
 nav {
@@ -59,6 +63,7 @@ nav {
 .logo {
     width: 180px;
 }
+
 
 nav ul li {
     display: block;
@@ -88,7 +93,13 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-.icon {
+#menuicon {
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-left: 240px;
+    cursor: pointer;
     display: none;
 }
 
@@ -433,62 +444,62 @@ textarea {
 
     .first-div {
         width: 100%;
-        height: 400px;
-
-    }
-
-    .first-div nav {
-        display: flex;
-    }
-
-    .first-div .logo {
-        float: left;
-        margin-left: 20px;
-        margin-top: -40px;
-        width: 300px;
-    }
-
-
-
-    .first-div nav ul li .icon {
-
-        float: right;
-        color: black;
-        text-decoration: none;
-        font-size: 30px;
-
-    }
-
-
-    .first-div .topnav #menuicon {
-
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 40px;
-        float: right;
-        margin-left: 100px;
-        display: block;
-
-    }
-
-    #myLinks {
-        position: absolute;
-        width: 100%;
         height: auto;
-        transform: 0.5s;
-        display: none;
 
     }
+    img.logo
+    {
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul
+   {
+    margin-right: 20px;
+}
+nav a
+{
+    font-size: 17px;
+}
 
-    nav ul li a {
-
-        font-size: 30px;
-        text-align: center;
+    nav #menuicon {
         display: block;
-        position: relative;
-
     }
+
+    nav ul 
+    {
+      
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(100, 84, 84);
+        z-index: 9;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+    }
+    nav li
+    {
+        display: block;
+        margin: 50pc 0;
+        line-height: 30px;
+    }
+    nav a
+    {
+        font-size: 20px;
+    }
+    a.active, a:hover
+{
+    color: #3498db;
+}
+
+nav ul.show
+{
+    left:0;
+}
+
+    
+    
 
 
     .second-div {
@@ -631,5 +642,5 @@ textarea {
 
 
 
-
 }
+

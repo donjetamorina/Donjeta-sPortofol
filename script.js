@@ -31,12 +31,12 @@ function ShowMore()
 
 
 
-  function myFunction() {
+  // function myFunction() {
            
-    if (document.getElementById('myLinks').style.display =='block') {
-      document.getElementById('myLinks').style.display = "none";
-    } else {
-     document.getElementById('myLinks').style.display = "block";
-    }
-  }
-  document.getElementById('menuicon').addEventListener('click', myFunction);
+  //   if (document.getElementById('myLinks').style.display =='block') {
+  //     document.getElementById('myLinks').style.display = "none";
+  //   } else {
+  //    document.getElementById('myLinks').style.display = "block";
+  //   }
+  // }
+  // document.getElementById('menuicon').addEventListener('click', myFunction);
