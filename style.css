@@ -57,7 +57,7 @@ nav {
     margin-left: -130px;
     overflow: hidden;
     position: fixed;
-
+    
 }
 
 .logo {
@@ -95,12 +95,14 @@ nav ul li a:hover {
 
 #menuicon {
     color: black;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 80px;
     float: right;
-    margin-left: 240px;
+    margin-top: 80px;
+    margin-left: 140px;
     cursor: pointer;
     display: none;
+    position: relative;
 }
 
 .photohome {
@@ -410,7 +412,7 @@ textarea {
 }
 
 .third-div .theicons a {
-    margin: 20px 17px;
+    margin: 20px 30px;
 }
 
 .third-div .theicons .ikona {
@@ -436,33 +438,26 @@ textarea {
     }
 
     #header {
-        display: block;
+        /* display: block; */
 
         width: 100%;
 
     }
+    
 
     .first-div {
+        display: block;
         width: 100%;
-        height: auto;
+        height: 50px;
         z-index: 2;
         /* z-index: 9;opacity: 1; */
 
     }
     img.logo
     {
-        font-size: 32px;
-        padding-left: 60px;
+        display: none;
     }
-    nav ul
-   {
-    margin-right: 20px;
-}
-nav a
-{
-    font-size: 17px;
-}
-
+   
     nav #menuicon {
         display: block;
     }
@@ -478,6 +473,7 @@ nav a
         left: -100%;
         text-align: center;
         transition: all .5s ;
+        margin-right: 20px;
     }
     nav li
     {
@@ -507,48 +503,62 @@ nav ul.show
         display: block;
         width: 100%;
        z-index: 1;
+       margin: 140px 0 0 0 ;
 
+    }
+    .second-div .aboutme
+    {
+        width: 100%;
     }
 
     .second-div .right {
         width: 300px;
         padding: 0;
+        margin: 60px 0 0 -190px;
     }
 
     .second-div h3,
     p {
         font-size: 29px;
+        margin-left: -40px;
     }
 
     .second-div h1 {
         font-size: 37px;
+        margin-left: -40px;
     }
 
     .second-div .line {
         width: 100px;
         height: 37px;
-        margin-top: -40px;
+        margin-top: -20px;
         border-bottom: 2px solid black;
         position: absolute;
+        margin-left: -50px;
     }
 
-    .second-div .photohome {
-        width: 330px;
-        margin-left: auto;
-    }
-
+   
     .photoabout {
-        margin-left: 60px;
+        margin-left: -180px;
+        margin-top: 40px;
+        width: 330px;
+    }
+    .mediv{
+    margin-left: -180px;
     }
 
     .cv {
 
         font-size: 25px;
+       
     }
 
     .box-container-services {
         display: block;
         width: 100%;
+        margin-top: 200px ;
+        margin-left: -320px;
+        margin-right: 40px;
 
     }
 
@@ -558,6 +568,10 @@ nav ul.show
         border-radius: 5px;
         box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
         margin-bottom: 30px;
+    }
+    .box-container-services .box-services h3,p, a
+    {
+        margin-left: 5px;
     }
 
     #load-more-services {
@@ -581,32 +595,32 @@ nav ul.show
     }
 
     .box-container-services .box-services .content-services a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .div-portfolio h1 {
         font-size: 30px;
         font-weight: 200;
-        width: 60%;
+        width: 80%;
         text-align: center;
-        margin-left: 85px;
+       margin: 30px 0 0 -120px;
     }
 
     .div-portfolio h3 {
         font-weight: 100;
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .div-portfolio h3 {
-        margin: 20px 0 0 0;
+        margin: 20px 0 0 -180px;
         display: block;
         box-sizing: border-box;
-        width: 90%;
+        width: 180%;
         border: 2px black dashed;
         background-color: #bdb2be;
         height: 190px;
         padding: 10px;
-        margin-left: 20px;
+        /* margin-left: -120px; */
 
     }
 
@@ -627,14 +641,18 @@ nav ul.show
 
     .third-div {
         display: flex;
+        position: absolute;
+      
+       
     }
 
     .third-div .theicons {
 
-        font-size: 40px;
+        font-size: 30px;
         display: flex;
-        margin-left: 19px;
+        margin-left: 49px;
         position: absolute;
+        margin-top: -10px;
     }
 
     .third-div .theicons a {
